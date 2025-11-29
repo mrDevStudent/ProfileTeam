@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Leisure - Student Profiles</title>
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo"><i class="fa-solid fa-layer-group"></i></div>
+      Team Nexus
+    </div>
+
+    <div class="nav-section">
+      <!-- Dashboard Group -->
+      <div class="nav-group-header" id="dashboard-header" onclick="toggleDashboard()">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <i class="fa-solid fa-border-all"></i>
+          <span>Dashboard</span>
+        </div>
+        <i class="fa-solid fa-chevron-down chevron-icon" id="dashboard-chevron"></i>
+      </div>
+      
+      <!-- Dashboard Sub-items -->
+      <div id="dashboard-list" class="collapsible-list collapsed">
+         <div class="sub-item">1.</div>
+         <div class="sub-item">2.</div>
+         <div class="sub-item">3.</div>
+         <div class="sub-item">4.</div>
+      </div>
+
+      <!-- Team Profiles Group -->
+      <div class="nav-group-header" onclick="toggleTeamList()">
+        <div style="display:flex; align-items:center; gap:12px;">
+            <i class="fa-regular fa-address-card"></i>
+            <span>Team Profiles</span>
+        </div>
+        <i class="fa-solid fa-chevron-up chevron-icon" id="team-chevron"></i>
+      </div>
+
+      <!-- Team List -->
+      <div id="member-list" class="collapsible-list">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content" id="main-content">
+    <div class="content-area">
+      <div class="profile-card" id="profile-container">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
