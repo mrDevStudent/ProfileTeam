@@ -5,8 +5,8 @@
         role: "Developer", 
         age: "20",
         year: "2rd Year",
-        major: "BS Computer Science",
-        college: "College of Computer Studies",
+        major: "BS Information Technology",
+        college: "Bestlink College of the Philippines",
         description: "Passionate developer who loves solving complex problems with code. Always exploring new technologies and frameworks.",
         avatar: "KD",
         email: "kduro@university.edu",
@@ -19,7 +19,7 @@
         age: "19",
         year: "2nd Year",
         major: "BS Information Technology",
-        college: "College of Information Technology",
+        college: "Bestlink College of the Philippines",
         description: "Creative designer focused on user experience. Loves transforming ideas into beautiful and functional interfaces.",
         avatar: "AE",
         email: "aenguerra@university.edu",
@@ -58,7 +58,7 @@
         age: "22",
         year: "4th Year",
         major: "BS Information Technology",
-        college: "College of Information Technology",
+        college: "Bestlink College of the Philippines",
         description: "Technical expert in system management and infrastructure. Ensures all systems run smoothly and securely.",
         avatar: "EO",
         email: "eombrog@university.edu",
@@ -212,6 +212,7 @@
     }
 
     renderUI();
+
 
 
 
