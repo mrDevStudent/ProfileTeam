@@ -28,14 +28,14 @@
       },
       { 
         name: "Tobey D. Marco", 
-        role: "Developer", 
+        role: "Role Model", 
         age: "21",
         year: "2rd Year",
-        major: "BS Cyber Security",
-        college: "College of Business & Accountancy",
+        major: "BS Information Technology",
+        college: "Bestlink College of The Philippines",
         description: "Natural leader with strong organizational skills. Ensures smooth team coordination and project delivery.",
         avatar: "TM",
-        email: "tmarco@university.edu",
+        email: "tobsmarco@gmail.com",
         phone: "+63 917 345 6789",
         website: "tobeymarco.com"
       },
@@ -212,5 +212,6 @@
     }
 
     renderUI();
+
 
 
