@@ -22,8 +22,8 @@
         college: "Bestlink College of the Philippines",
         description: "Creative designer focused on user experience. Loves transforming ideas into beautiful and functional interfaces.",
         avatar: "AE",
-        email: "aenguerra@university.edu",
-        phone: "+63 917 234 5678",
+        email: "aaronenguerra220@gmail.com",
+        phone: "+63 915 645 5183",
         website: "aaron.design"
       },
       { 
@@ -212,6 +212,7 @@
     }
 
     renderUI();
+
 
 
 
